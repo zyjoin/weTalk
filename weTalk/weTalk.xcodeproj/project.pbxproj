@@ -13,6 +13,7 @@
 		725B70111CA8C5F6004A113F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B700F1CA8C5F6004A113F /* Main.storyboard */; };
 		725B70131CA8C5F6004A113F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725B70121CA8C5F6004A113F /* Assets.xcassets */; };
 		725B70161CA8C5F6004A113F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B70141CA8C5F6004A113F /* LaunchScreen.storyboard */; };
+		725B701F1CA8C653004A113F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 725B701E1CA8C653004A113F /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		725B70121CA8C5F6004A113F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		725B70151CA8C5F6004A113F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		725B70171CA8C5F6004A113F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		725B701D1CA8C653004A113F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		725B701E1CA8C653004A113F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				725B700C1CA8C5F6004A113F /* ViewController.h */,
 				725B700D1CA8C5F6004A113F /* ViewController.m */,
 				725B700F1CA8C5F6004A113F /* Main.storyboard */,
+				725B701D1CA8C653004A113F /* Person.h */,
+				725B701E1CA8C653004A113F /* Person.m */,
 				725B70121CA8C5F6004A113F /* Assets.xcassets */,
 				725B70141CA8C5F6004A113F /* LaunchScreen.storyboard */,
 				725B70171CA8C5F6004A113F /* Info.plist */,
@@ -151,6 +156,7 @@
 			files = (
 				725B700E1CA8C5F6004A113F /* ViewController.m in Sources */,
 				725B700B1CA8C5F6004A113F /* AppDelegate.m in Sources */,
+				725B701F1CA8C653004A113F /* Person.m in Sources */,
 				725B70081CA8C5F6004A113F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
